@@ -8,12 +8,12 @@ int x,y,z,w,h,t;
 
 void setup () {
   size(640,480) ;  
-  bg1=loadImage("Img/bg1.png");
-  bg2=loadImage("Img/bg2.png");
-  enemy=loadImage("Img/enemy.png");
-  fighter=loadImage("Img/fighter.png");
-  hp=loadImage("Img/hp.png");
-  treasure=loadImage("Img/treasure.png");
+  bg1=loadImage("img/bg1.png");
+  bg2=loadImage("img/bg2.png");
+  enemy=loadImage("img/enemy.png");
+  fighter=loadImage("img/fighter.png");
+  hp=loadImage("img/hp.png");
+  treasure=loadImage("img/treasure.png");
   x=floor(random(0,196));
   z=floor(random(0,500));
   w=floor(random(20,470));
