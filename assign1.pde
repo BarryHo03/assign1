@@ -4,7 +4,7 @@ PImage enemy;
 PImage fighter;
 PImage hp;
 PImage treasure;
-int x,y,z,w,h,t;
+int x,y,z,w,k,h,t;
 
 void setup () {
   size(640,480) ;  
@@ -16,7 +16,8 @@ void setup () {
   treasure=loadImage("img/treasure.png");
   x=floor(random(0,196));
   z=floor(random(0,500));
-  w=floor(random(20,470));
+  w=floor(random(20,465));
+  k=floor(random(15,465));
   h=640;
   t=0;
 }
@@ -42,7 +43,7 @@ void draw() {
   image(hp,0,0);
   
   //enemy  
-  image(enemy,y,200);
+  image(enemy,y,k);
   y+=2;
   y%=640;
   
